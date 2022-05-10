@@ -38,8 +38,7 @@ const leftBehind: DLC = {
 
 
 //IMPLEMENTANDO UMA CLASSE COM INTERFACE:
-
-class creatGame implements Game{
+class creatGame implements Game { //A classe precisa ter todos os tipos que tem na interface Game
     title: string;
     description: string;
     genre: string;
