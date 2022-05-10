@@ -19,6 +19,13 @@ class charAccount extends userAccount {
     logCharDetails() {
         console.log(`The player ${this.name} has the char ${this.nickname} at level ${this.level}`);
     }
+    get getLevel() {
+        console.log("Teste");
+        return this.level;
+    }
+    set setAge(age) {
+        this.age = age;
+    }
 }
 const will = new userAccount("Willian", 12);
 console.log(will);
@@ -26,3 +33,6 @@ will.logDetails();
 const john = new charAccount("John", 28, "Sova", 100);
 john.logDetails();
 john.logCharDetails();
+john.setAge = 30;
+console.log(john.age);
+console.log(john.getLevel);
