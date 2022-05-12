@@ -1,10 +1,18 @@
 ## FUNDAMENTOS ESSENCIAIS EM TYPESCRIPT
 
-    ##
+#
 
-COMECE COM:
-    - 
+CAMINHE POR:
+- Types
+- log details (types aliases & unions)
+- user (type alises & intersections)
+- classes
+- interfaces
+- generics
+- type utilities
+- Decorators
 
+#
 
 ### Diferença entre Types e interface
 - Type implementa tuplas. Interface, não
@@ -16,7 +24,6 @@ COMECE COM:
 - Vantagens de usar Interfaces:
     - Quando estiver criando bibliotecas
     - Criação de objetos/classes (na poo)
-    - 
 
 - Vantagens de usar Interfaces:
     - Código mais limpinho
