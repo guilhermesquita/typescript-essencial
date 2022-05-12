@@ -1,4 +1,12 @@
 "use strict";
+//GENERICS - Definir o tipo e torná-lo imutável
+/*
+State = S
+Type = T
+Key = K
+Value = V
+Element = E
+*/
 function useState() {
     let state;
     function getState() {
@@ -9,8 +17,8 @@ function useState() {
     }
     return { getState, setState };
 }
-const newState = useState();
+const newState = useState(); //Definindo o nosso "<S>"
 newState.setState("foo");
 console.log(newState.getState());
-newState.setState(123);
+// newState.setState(123); -> Aqui ele vai dar erro. Pq só aceita string!
 console.log(newState.getState());
