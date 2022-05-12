@@ -1,5 +1,5 @@
 "use strict";
-//GENERICS - Definir o tipo e torná-lo imutável
+//GENERICS TYPES - Definir o tipo e torná-lo imutável
 /*
 State = S
 Type = T
