@@ -1,6 +1,6 @@
 //Declaração iniciado com @
 
-//class decorator - decorato de classe
+//class decorator - decorator de classe
 
 function log(target: any) { //Criação de decorator
     console.log(target)
